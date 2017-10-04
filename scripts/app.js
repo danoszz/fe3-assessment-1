@@ -11,7 +11,7 @@ var pack = d3.pack()
     .size([width, height])
     .padding(1.5);
 
-d3.tsv("/assets/data/languages.tsv", function(d) {
+d3.tsv("https://danoszz.github.io/fe3-assessment-1/assets/data/languages.tsv", function(d) {
   d.speakers = +d.speakers;
   if (d.speakers) return d;
 }, function(error, classes) {
