@@ -1,64 +1,65 @@
 # ![Assessment 1][banner]
 
-This repository can be forked for [**assessment 1**][a1] of [Frontend 3][fe3]
-at [**@CMDA**][cmda].
+A visualization for [FE3 Assessment 1](https://github.com/cmda-fe3/fe3-assessment-1) by @danoszz. This documentation will show my process and reflections.
 
-## TODO
+## Initial Idea
 
+As the [workflow](https://github.com/cmda-fe3/fe3-assessment-1#workflow) guided through the process; a visualization always will start with looking at the raw data. I chose the [Population without indoor toilet dataset](https://github.com/danoszz/course-17-18/tree/master/assessment-1#population-without-indoor-toilet) in particular because of a few reasons:
+
+* In the past I had some problems with JSON formats for visualizations, good time to learn.
+* Most data points from each dataset: year, percentage and country.
+* 💩
+
+I came up with an _initial idea_ of creating a [scatterplot](http://bl.ocks.org/weiglemc/6185069) in the shape of an toilet called ***Splatterpot***.
+![alt text](assets/images/splatterpot-idea_sketch.jpg "Splatterpot Idea Sketch")
+
+#### Scope
+
+Since the idea is a bit out of scope for the project and above my own expectations it is fair to say the outcome would never match 100% with the _initial idea_. I've learned that if I focus to much on the style, concept en outcome that the code will be the weak chain in the end-product. To match the [learning objectives](https://github.com/cmda-fe3/course-17-18#subgoals) the visualization is focused on a working D3.js code instead of a laughable, not working, toilet with 💩. So therefore styling is out of scope (but not out of mind).
+
+#### Failed
+
+But.. I failed to deliver it before the deadline because I was stuck at one point for 5 hours:
+
+* The 'years' (2005 - 201^) are stored in JSON as same level as 'country' and 'code' and as a string. To get them on the Y-axis was impossible.
+
+## Kill your darlings
+
+Two hours before the deadline I realized I had to make a big change to still hand in a proper working code. So I did. It needed to be ***fast*** and ***solid***. So no crazy ideas. They can be handed in during the re-sit at the end of the semester. The original code can be viewed at [my own repo](#).
+
+> ✂️ The only challenge for myself to write the code as in few lines as possible.
+
+### Features
+
+Although I am not 100% happy with the result the D3.js visualization contains a decent amount of features:
+
+* d3.pack
+* d3.tsv
+* d3.format
+* d3.hierarchy
+
+The prettified code is only ***48 lines*** long!
+
+
+#### Things that had to be done
+
+*   [x] Pick another [dataset](https://github.com/danoszz/course-17-18/tree/master/assessment-1)
+*   [x] Find a [example code](blocksrepo) for visualization
+*   [x] Clean up file structure and make it work locally
+*   [x] Again some cleaning, but now in the HTML, CSS and most importantly JS
+*   [x] Change D3 V3 to D3 V4
+*   [x] Get a working visualization without any errors
+*   [ ] Add functionalities (ex. hover display amount, force function)
+*   [ ] Style the hell out of this boring bubble chart
+*   [ ] ES5 -> ES6
 *   [ ] [GitHub Pages](#github-pages)
 *   [ ] [Metadata](#metadata)
 *   [ ] [Workflow](#workflow)
 *   [ ] Replace this document in your fork with your own readme!
 
-## GitHub Pages
 
-Set up [GitHub Pages][pages] for this fork through the **Settings** pane.  Use
-the **Master branch** as its source.
 
-## Metadata
-
-Edit the **description** and **url** of your repository.  Click on edit above
-the green Clone or download button and fill in your correct information.
-
-## Workflow
-
-How you go about your project is up to you other than that it must meet the
-given requirements.  The following steps may help to tackle this challenge
-though.
-
-###### Explore
-
-Explore the [data][].  Make sense of the rows, columns, and what they contain.
-Investigate interesting aspects and possible outcomes.  Figure out what type of
-chart you want and sketch your visualisation.
-
-List the features needed to make your chart work and make sure they match our
-[rubric][].  For example, pie charts or donut charts often lack features needed
-to get good grades in the **application of subject matter** category.  You must
-compensate with other useful features to get a good grade in this case.
-
-Pick the most enticing data and copy it to your fork.
-
-###### Process
-
-Describe the purpose and background of your visualisation in your fork’s readme.
-Portray your data and list the d3 features.
-
-Start writing code.  Feel free to use example code found on the web but make
-sure to include correct citations.  Use inline code comments to describe
-anything of interest.  Don’t forget to document your process.
-
-###### Review
-
-Finish up your readme and review your project.  Audit the code and docs.
-Evaluate whether the project matches our [rubric][] and make changes where
-needed.
-
-Include anything you’re particularly proud of and mention anything that was
-exceptionally hard to accomplish in your readme to make sure lecturers don’t
-miss it!  🌟
-
-[banner]: https://cdn.rawgit.com/cmda-fe3/logo/3b150735/banner-assessment-1.svg
+[banner]: assets/images/preview-image.png
 
 [a1]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#description
 
@@ -71,3 +72,5 @@ miss it!  🌟
 [cmda]: https://github.com/cmda
 
 [pages]: https://pages.github.com
+
+[blocksrepo]: https://bl.ocks.org/mbostock/4063269
