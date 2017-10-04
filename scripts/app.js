@@ -11,7 +11,7 @@ var pack = d3.pack()
     .size([width, height])
     .padding(1.5);
 
-d3.tsv("../assets/data/languages.tsv", function(d) {
+d3.tsv("/assets/data/languages.tsv", function(d) {
   d.speakers = +d.speakers;
   if (d.speakers) return d;
 }, function(error, classes) {
