@@ -10,10 +10,13 @@ body {
 
 circle {
 	stroke: #fff;
+	transition: all ease-in-out 165ms;
 }
 circle:hover {
 	transform: scale(1.1);
 }
+
+svg {}
 
 .bubble {
 	opacity: 1;
