@@ -1,6 +1,6 @@
 # ![Assessment 1][banner]
 
-A visualization for [FE3 Assessment 1](https://github.com/cmda-fe3/fe3-assessment-1) by @danoszz. This documentation will show my process and reflections.
+A visualization for [FE3 Assessment 1](https://github.com/cmda-fe3/fe3-assessment-1) by @danoszz. This documentation will show my process and thoughts.
 
 ## Initial Idea
 
@@ -61,16 +61,5 @@ The prettified code is only ***48 lines*** long!
 
 [banner]: assets/images/preview-image.png
 
-[a1]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#description
-
-[data]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#data
-
-[rubric]: https://github.com/cmda-fe3/course-17-18/tree/master/assessment-1#rubric
-
-[fe3]: https://github.com/cmda-fe3
-
-[cmda]: https://github.com/cmda
-
-[pages]: https://pages.github.com
 
 [blocksrepo]: https://bl.ocks.org/mbostock/4063269
