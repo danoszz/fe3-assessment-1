@@ -25,7 +25,7 @@ But.. I failed to deliver it before the deadline because I was stuck at one poin
 
 ## Kill your darlings
 
-Two hours before the deadline I realized I had to make a big change to still hand in a proper working code. So I did. It needed to be ***fast*** and ***solid***. So no crazy ideas. They can be handed in during the re-sit at the end of the semester. The original code can be viewed at [my own repo](#).
+One and a half hour before the deadline I realized I had to make a big change to still hand in a proper working code. So I did. It needed to be ***fast*** and ***solid***. So no crazy ideas. They can be handed in during the re-sit at the end of the semester. The original code can be viewed at [my own repo](#).
 
 > ✂️ The only challenge for myself to write the code as in few lines as possible.
 
@@ -49,13 +49,13 @@ The prettified code is only ***48 lines*** long!
 *   [x] Again some cleaning, but now in the HTML, CSS and most importantly JS
 *   [x] Change D3 V3 to D3 V4
 *   [x] Get a working visualization without any errors
-*   [ ] Add functionalities (ex. hover display amount, force function)
+*   [x] Upload master branch to GitHub Pages
+*   [x] Edit meta data
+*   [x] Workflow described in documentation and code
+*   [x] Replace this document in your fork with your own readme!
+*   [ ] Add functionalities (ex. hover display amount, force & drag function)
 *   [ ] Style the hell out of this boring bubble chart
 *   [ ] ES5 -> ES6
-*   [ ] [GitHub Pages](#github-pages)
-*   [ ] [Metadata](#metadata)
-*   [ ] [Workflow](#workflow)
-*   [ ] Replace this document in your fork with your own readme!
 
 
 
