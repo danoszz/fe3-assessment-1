@@ -25,7 +25,7 @@ But.. I failed to deliver it before the deadline because I was stuck at one poin
 
 ## Kill your darlings
 
-One and a half hour before the deadline I realized I had to make a big change to still hand in a proper working code. So I did. It needed to be ***fast*** and ***solid***. So no crazy ideas. They can be handed in during the re-sit at the end of the semester. The original code can be viewed at [my own repo](#).
+One and a half hour before the deadline I realized I had to make a big change to still hand in a proper working code. So I did. It needed to be ***fast*** and ***solid***. So no crazy ideas. They can be handed in during the re-sit at the end of the semester. The original code can be viewed [here](scripts/app_splatterplot.js).
 
 > ✂️ The only challenge for myself to write the code as in few lines as possible.
 
