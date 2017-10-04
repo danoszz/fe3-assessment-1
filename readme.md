@@ -52,10 +52,10 @@ The prettified code is only ***48 lines*** long!
 *   [x] Upload master branch to GitHub Pages
 *   [x] Edit meta data
 *   [x] Workflow described in documentation and code
-*   [x] Replace this document in your fork with your own readme!
+*   [x] Replace this document in your fork with own readme!
+*   [x] ES5 -> ES6
 *   [ ] Add functionalities (ex. hover display amount, force & drag function)
 *   [ ] Style the hell out of this boring bubble chart
-*   [ ] ES5 -> ES6
 
 
 
